@@ -1,17 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-/*class Matrix
-{
-private:
-    int m_numRows;
-    int m_numCols;
-    int array[][];
-public:
- Matrix(int rows, int cols);
- int getRows(){return m_numRows;}
- int getCols(){return m_numCols;}
-};*/
+
 class MatrixMath
 {
     public:
@@ -117,16 +107,3 @@ cout << "matrix1 transposed: " << endl;
 tester.transpose(vector1);
 return 0;
 }
-/*Matrix :: Matrix(int rows, int cols){
-    m_numRows = rows;
-    m_numCols = cols;
-    int input = 0;
-    array[m_numRows][m_numCols];
-    for(int i=0;i<m_numRows;i++){
-        for(int j=0;j<m_numCols;j++){
-            cout << "enter value for row " << i + 1 << " Col " << j+1 << endl;
-            cin >> input;
-            array[i][j] = input;
-        }
-    }
-}*/
